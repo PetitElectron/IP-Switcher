@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36518.9 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "IP_Switcher", "IP_Switcher.pyproj", "{BBBC606A-F7A6-462F-8634-4B5B0EDD07FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BBBC606A-F7A6-462F-8634-4B5B0EDD07FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBBC606A-F7A6-462F-8634-4B5B0EDD07FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CEDAAB0F-7850-4F5E-AA33-E6C062705987}
+	EndGlobalSection
+EndGlobal
