@@ -29,10 +29,10 @@ A packaged Windows executable is available in the Releases section.
 Actual presets are saved to:
 %APPDATA%\IPSwitcher\presets.json
 
-#Contributing
+# Contributing
 
 PRs welcome. Keep changes minimal and readable.
 
-#License
+# License
 
 MIT
