@@ -19,7 +19,7 @@ Minimal Windows utility to quickly switch IP configurations (static/DHCP) for li
 ```bash
 pip install -r requirements.txt
 python ip_switcher.py
-
+```
 # Download
 
 A packaged Windows executable is available in the Releases section.
