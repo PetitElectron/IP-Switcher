@@ -21,3 +21,8 @@ Thumbs.db
 
 # Local presets (if any ever appear)
 presets.json
+
+# Build
+build/
+dist/
+*.spec

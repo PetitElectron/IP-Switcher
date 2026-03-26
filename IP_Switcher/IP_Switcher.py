@@ -19,6 +19,13 @@ try:
 except:
     psutil = None
 
+def resource_path(relative_path):
+    try:
+        base_path = sys._MEIPASS
+    except Exception:
+        base_path = os.path.abspath(".")
+
+    return os.path.join(base_path, relative_path)
 
 # ================= ADMIN =================
 
@@ -148,6 +155,15 @@ root = tk.Tk()
 root.update_idletasks()
 root.title(f"IP Switcher v{VERSION}")
 root.configure(bg=BG_MAIN)
+
+myappid = "petitelectron.ip_switcher.v1"
+ctypes.windll.shell32.SetCurrentProcessExplicitAppUserModelID(myappid)
+
+try:
+    icon_img = tk.PhotoImage(file=resource_path("icon.png"))
+    root.iconphoto(True, icon_img)
+except tk.TclError:
+    pass
 
 """Window config"""
 
